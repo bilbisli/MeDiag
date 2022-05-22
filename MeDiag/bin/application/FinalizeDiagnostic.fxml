@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FinalizeDiagnosticController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" style="-fx-background-color: #050a30;">
+         <children>
+            <HBox layoutX="26.0" layoutY="128.0" prefHeight="387.0" prefWidth="842.0" spacing="30.0">
+               <children>
+                  <VBox fx:id="questionPane" prefHeight="386.0" prefWidth="858.0" spacing="30.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutY="-3.0" prefHeight="58.0" prefWidth="880.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="437.0" text="Diagnostic Questions" textFill="#a4d1e7">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Button fx:id="homeButton" graphicTextGap="0.0" layoutX="775.0" layoutY="535.0" mnemonicParsing="false" onAction="#loadHomePage" prefHeight="42.0" prefWidth="42.0" styleClass="transparent" stylesheets="@application.css" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="42.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" smooth="false" styleClass="transparent">
+                     <image>
+                        <Image url="@../static/homeIcon.png" />
+                     </image>
+                     <effect>
+                        <Lighting diffuseConstant="1.26" specularConstant="0.39" specularExponent="19.63" surfaceScale="2.43">
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="diagnoseButton" layoutX="279.0" layoutY="539.0" mnemonicParsing="false" onAction="#diagnose" prefHeight="42.0" prefWidth="278.0" style="-fx-background-color: #5cb6f9;" text="Diagnose">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <HBox layoutX="11.0" layoutY="64.0" prefHeight="46.0" prefWidth="869.0">
+               <children>
+                  <Label prefHeight="46.0" prefWidth="850.0" text="Mark the questions to which the answer is 'yes':" textFill="#fffcfc">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+Patient: name=e32e, id=123456789, title=null, gender=FEMALE, origin region=ISRAEL, age=21.0
+Visit Time: date - 2022-05-22 time - 04:53:48.472289200
+Doctor: israel avihail
+Symptoms:
+	LYMPH: 0.0
+		Optional Diagnostics:
+			1.Blood cell formation disorder
+			Treatment: 10 mg pill of B12 a day for a month + 5 mg pill of folic acid a day for a month
+	HCT: 0.0
+		Optional Diagnostics:
+			1.Anemia
+			Treatment: two pills of B12 a day for a month
+			2.Bleeding
+			Treatment: evacuate to hospital ASAP
+	NEUT: 0.0
+		Optional Diagnostics:
+			1.Blood cell formation disorder
+			Treatment: 10 mg pill of B12 a day for a month + 5 mg pill of folic acid a day for a month
+			2.Viral disease
+			Treatment: rest at home
+			3.Cancer
+			Treatment: entrectinib

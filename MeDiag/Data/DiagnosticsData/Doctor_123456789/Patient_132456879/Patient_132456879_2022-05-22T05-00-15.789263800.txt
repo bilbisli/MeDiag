@@ -1,0 +1,48 @@
+Patient: name=jon doe, id=132456879, title=null, gender=MALE, origin region=ETHIOPIA, age=5.0
+Visit Time: date - 2022-05-22 time - 05:00:15.789263800
+Doctor: israel avihail
+Symptoms:
+	HCT: 18.75
+		Optional Diagnostics:
+			1.Anemia
+			Treatment: two pills of B12 a day for a month
+			2.Bleeding
+			Treatment: evacuate to hospital ASAP
+	NEUT: 75.0
+		Optional Diagnostics:
+			1.Viral disease
+			Treatment: rest at home
+	WBC: 0.4
+		Optional Diagnostics:
+			1.Viral disease
+			Treatment: rest at home
+			2.Cancer
+			Treatment: entrectinib
+	IR: 5.0
+		Optional Diagnostics:
+			1.Iron deficiency
+			Treatment: two 10 mg pills of B12 a day for a month
+			2.Malnutrition
+			Treatment: referral to a family doctor for a match between medications
+			3.Bleeding
+			Treatment: evacuate to hospital ASAP
+	HB: 11.0
+		Optional Diagnostics:
+			1.Anemia
+			Treatment: two pills of B12 a day for a month
+			2.Hematological disorder
+			Treatment: prescribe injection of hormone to encourage red blood cell production
+			3.Iron deficiency
+			Treatment: two 10 mg pills of B12 a day for a month
+			4.Bleeding
+			Treatment: evacuate to hospital ASAP
+	LYMPH: 25.0
+		Optional Diagnostics:
+			1.Blood cell formation disorder
+			Treatment: 10 mg pill of B12 a day for a month + 5 mg pill of folic acid a day for a month
+	RBC: 45.0
+		Optional Diagnostics:
+			1.Blood cell formation disorder
+			Treatment: 10 mg pill of B12 a day for a month + 5 mg pill of folic acid a day for a month
+			2.Lung disease
+			Treatment: don't smoke + stay away from smokers + referral to X-ray of the lungs

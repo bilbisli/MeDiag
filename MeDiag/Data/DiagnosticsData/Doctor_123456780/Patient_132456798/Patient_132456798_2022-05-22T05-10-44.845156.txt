@@ -1,0 +1,40 @@
+Patient: name=Jane Dean, id=132456798, title=null, gender=FEMALE, origin region=NORTH_AFRICA, age=12.0
+Visit Time: date - 2022-05-22 time - 05:10:44.845156
+Doctor: ofir golan
+Symptoms:
+	NEUT: 0.0
+		Optional Diagnostics:
+			1.Blood cell formation disorder
+			Treatment: 10 mg pill of B12 a day for a month + 5 mg pill of folic acid a day for a month
+			2.Viral disease
+			Treatment: rest at home
+			3.Cancer
+			Treatment: entrectinib
+	HCT: 12.5
+		Optional Diagnostics:
+			1.Anemia
+			Treatment: two pills of B12 a day for a month
+	IR: 3.0
+		Optional Diagnostics:
+			1.Iron deficiency
+			Treatment: two 10 mg pills of B12 a day for a month
+			2.Malnutrition
+			Treatment: referral to a family doctor for a match between medications
+	WBC: 45.0
+		Optional Diagnostics:
+			1.Viral disease
+			Treatment: rest at home
+			2.Cancer
+			Treatment: entrectinib
+	HB: 5.0
+		Optional Diagnostics:
+			1.Anemia
+			Treatment: two pills of B12 a day for a month
+			2.Hematological disorder
+			Treatment: prescribe injection of hormone to encourage red blood cell production
+			3.Iron deficiency
+			Treatment: two 10 mg pills of B12 a day for a month
+	LYMPH: 12.5
+		Optional Diagnostics:
+			1.Blood cell formation disorder
+			Treatment: 10 mg pill of B12 a day for a month + 5 mg pill of folic acid a day for a month
